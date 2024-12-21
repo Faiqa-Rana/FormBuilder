@@ -10,7 +10,8 @@
     "web": "expo start --web",
     "test": "jest --watchAll",
     "lint": "expo lint",
-    "build": "react-scripts build"
+    "build": "npx expo export:web"
+
   },
   "jest": {
     "preset": "jest-expo"
